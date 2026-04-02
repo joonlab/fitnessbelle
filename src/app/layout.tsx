@@ -1,5 +1,8 @@
 import type { Metadata } from 'next';
 import './globals.css';
+import Header from '@/components/layout/Header';
+import Footer from '@/components/layout/Footer';
+import FloatingCTA from '@/components/layout/FloatingCTA';
 
 export const metadata: Metadata = {
   title: '피트니스벨 - 여성전용 프리미엄 헬스장 | 김포 구래동 · 고양 화정',
@@ -32,7 +35,12 @@ export default function RootLayout({
           href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/variable/pretendardvariable-dynamic-subset.min.css"
         />
       </head>
-      <body className="min-h-full flex flex-col">{children}</body>
+      <body className="min-h-full flex flex-col">
+        <Header />
+        <main className="flex-1">{children}</main>
+        <Footer />
+        <FloatingCTA />
+      </body>
     </html>
   );
 }
