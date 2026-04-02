@@ -1,0 +1,88 @@
+import type { BeforeAfterResult } from '@/types';
+
+export const results: BeforeAfterResult[] = [
+  {
+    id: 'result-1',
+    memberInitial: '김○○',
+    duration: '3개월',
+    program: 'PT',
+    beforeImage: '/images/before-after/result-1-before.jpg',
+    afterImage: '/images/before-after/result-1-after.jpg',
+    weightBefore: 72,
+    weightAfter: 59.3,
+    bodyFatBefore: 35,
+    bodyFatAfter: 24,
+    testimonial:
+      '3개월 만에 -12.7kg! 체형이 완전히 달라졌어요. 트레이너님의 꼼꼼한 식단 관리와 운동 프로그램 덕분입니다.',
+  },
+  {
+    id: 'result-2',
+    memberInitial: '이○○',
+    duration: '4개월',
+    program: 'PT',
+    beforeImage: '/images/before-after/result-2-before.jpg',
+    afterImage: '/images/before-after/result-2-after.jpg',
+    weightBefore: 78,
+    weightAfter: 63,
+    bodyFatBefore: 38,
+    bodyFatAfter: 25,
+    testimonial:
+      '4개월 동안 -15kg 감량에 성공했습니다. 포기하고 싶을 때마다 트레이너님이 응원해주셔서 끝까지 해낼 수 있었어요.',
+  },
+  {
+    id: 'result-3',
+    memberInitial: '박○○',
+    duration: '6개월',
+    program: 'PT',
+    beforeImage: '/images/before-after/result-3-before.jpg',
+    afterImage: '/images/before-after/result-3-after.jpg',
+    weightBefore: 85,
+    weightAfter: 66,
+    bodyFatBefore: 40,
+    bodyFatAfter: 23,
+    testimonial:
+      '6개월간 -19kg, 체지방률 17% 감소! 바디프로필까지 촬영하게 될 줄은 몰랐어요. 인생이 바뀌었습니다.',
+  },
+  {
+    id: 'result-4',
+    memberInitial: '최○○',
+    duration: '2개월',
+    program: '원더우먼 패키지',
+    beforeImage: '/images/before-after/result-4-before.jpg',
+    afterImage: '/images/before-after/result-4-after.jpg',
+    weightBefore: 62,
+    weightAfter: 55.4,
+    bodyFatBefore: 30,
+    bodyFatAfter: 24,
+    testimonial:
+      '원더우먼 패키지로 2개월 만에 -6.6kg! PT 없이도 인바디 관리와 그룹수업으로 충분히 변화할 수 있었어요.',
+  },
+  {
+    id: 'result-5',
+    memberInitial: '정○○',
+    duration: '3개월',
+    program: 'PT',
+    beforeImage: '/images/before-after/result-5-before.jpg',
+    afterImage: '/images/before-after/result-5-after.jpg',
+    weightBefore: 58,
+    weightAfter: 52,
+    bodyFatBefore: 28,
+    bodyFatAfter: 20,
+    testimonial:
+      '웨딩 다이어트로 시작했는데 체형교정까지 되어서 드레스 라인이 정말 예뻐졌어요. 감사합니다!',
+  },
+  {
+    id: 'result-6',
+    memberInitial: '한○○',
+    duration: '4개월',
+    program: 'PT',
+    beforeImage: '/images/before-after/result-6-before.jpg',
+    afterImage: '/images/before-after/result-6-after.jpg',
+    weightBefore: 70,
+    weightAfter: 58,
+    bodyFatBefore: 34,
+    bodyFatAfter: 22,
+    testimonial:
+      '산후 다이어트로 4개월 만에 체중도 돌아오고 체형도 교정되었어요. 아이 낳기 전보다 더 좋은 몸이 되었습니다.',
+  },
+];
